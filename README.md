@@ -23,6 +23,8 @@ Migrate and fill database
 php artisan migrate:fresh --seed
 ```
 
+You can check the feed at: `/product-feed.xml`
+
 ## Troubleshooting
 You may encounter the following error with Laravel Herd: **syntax error, unexpected identifier "version"**.
 This is because Laravel Herd enables short PHP tags by default. You can fix this by setting following in php.ini:
